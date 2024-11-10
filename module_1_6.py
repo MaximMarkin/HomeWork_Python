@@ -27,8 +27,8 @@ print(my_dict.get('Cat'))
 my_dict.update({'Kardinal': 1690,
                 'Miledy': 1735})
 print(my_dict)
-del my_dict['Kardinal']
-print(my_dict.get('Kardinal'))
+a = my_dict.pop('Kardinal')
+print(a)
 print(my_dict)
 
 
